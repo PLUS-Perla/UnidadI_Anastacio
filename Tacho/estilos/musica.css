@@ -1,0 +1,55 @@
+*{margin: 0; padding: 0;}
+
+body{
+	font-family: Roman;
+}
+
+header{
+	width: 100%;
+	overflow: hidden;
+	background: #000000;
+	margin-bottom: 50px;
+}
+
+header .musica{
+	color:#f2f2f2;
+	font-size: 50px;
+	line-height: 100px;
+	float: left;
+}
+
+.wrapper{
+	width: 100%;
+	max-width: 750px;
+	margin: auto;
+	overflow: hidden;
+}
+.contenido p{
+	margin-bottom:1em;
+}
+
+#main-container{
+	margin: 50px auto;
+	width: 600px;
+}
+
+table{
+	background-color: #E3DDDD;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #463D3D;
+	borde r-bottom: solid 5px #B4BEF9;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #C0C1C8
+}
